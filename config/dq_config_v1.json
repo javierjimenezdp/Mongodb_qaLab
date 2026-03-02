@@ -1,0 +1,7 @@
+{
+  "identity_users": ["_id", "userId", "orgId", "status", "createdAt"],
+  "device_map": ["_id", "deviceId", "orgId", "siteId", "createdAt"],
+  "device_management": ["_id", "deviceId", "status", "firmwareVersion", "updatedAt"],
+  "realtime_events": ["_id", "deviceId", "eventType", "value", "createdAt"],
+  "audit_events": ["_id", "eventType", "entityId", "createdAt"]
+}
